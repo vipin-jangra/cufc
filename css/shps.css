@@ -1,0 +1,177 @@
+
+
+#holder{
+	background-color:white;
+	border:0px solid;
+	width:15%;
+	height:70px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	position:fixed;
+	
+	}
+#header{
+	background-color:white;
+	position:fixed;
+	background-color:none;
+	border:none;
+	left:10%;
+	width:90%;
+	height:auto;
+	margin-top:0px;
+	margin-right:0px;
+	margin-left:0px;
+	}
+#header ul{
+	list-style-type:none;
+	}
+#header ul li a{
+	
+	font-size:18px;
+	float:right;
+	
+	width:110px;
+	height:50px;
+	text-align:center;
+	margin:10px 30px 10px 20px;
+	font-size:20px;
+	line-height:50px;
+	border-radius:50px;
+	font-family:Anton;
+	transition-duration:0.5s;
+		}	
+#header ul li a{
+	text-decoration:none;
+	color:black;
+	}
+#header ul li a:hover{
+			border:1px solid;
+			
+			color:black;
+			
+}
+
+#menu{
+	width:100%;
+	height:90%;
+	background-color:"yellow";
+	
+}
+
+#menu_items{
+	
+	width:20%;
+	height:100%;
+	background-color:red;
+	float:left;
+}
+
+#outeritems{
+	float:right;
+	width:60%;
+	
+	height:100%;
+	overflow:scroll;
+	
+}
+
+
+#rightside
+{
+	width:20%;
+	height:100%;
+	background-color:green;
+	float:right;
+}
+
+
+.search-container {
+  float:left;
+  margin:10px;
+}
+
+ input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.search-container button {
+  float: right;
+  height:38px;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+#imgs{
+	height:160px;
+	width:100%;
+	
+}
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+footer { 
+    font-family: 'Montserrat', sans-serif;
+    color: #E0E0E0;
+    line-height: 2;
+    background-color: #001825;
+    padding-top: 20px;
+	
+}
+
+
+.footerContent > .footerContent1 {
+    font-size: 40px;
+	background-color:white;
+	width:100%;
+    line-height: 1.5;
+}
+
+.footerSubtext {
+    color: #95a5a6;
+}
+
+.footerContent > .footerSubtext2 {
+    color: #95a5a6;
+    font-size: 14px;
+}
+
+.footcontent {
+	
+    color: #E0E0E0;
+}
+/*---*/
+
+.footerline { 
+    margin-top: 69px;
+    margin-bottom: 0px;
+}
+#footer {
+	font-size:50px;
+	
+}

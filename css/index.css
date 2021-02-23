@@ -1,0 +1,324 @@
+html
+{
+	scroll-behavior:smooth;
+}
+
+body{
+	background-color:#FFFFFF;
+	 font-family: 'Sofia';
+	margin:0px;
+	padding:0px;
+	}
+
+#aa
+{
+	background-image:radial-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/cub321.jpg");
+	background-attachment:fixed;
+  height: 100vh;
+  background-size:cover;
+  background-position:center;
+	box-shadow: 1px 8px 20px 5px grey;
+  filter: grayscale(30%);
+	width:90%;
+	margin-left:60px;
+	height:80%;
+}
+.centered {
+	
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family:Anton;
+  font-size:50px;
+  color:white;
+}
+
+
+
+	
+#holder{
+	background-color:white;
+	border:0px solid;
+	width:15%;
+	height:70px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	position:fixed;
+	
+	}
+#header{
+	background-color:white;
+	position:fixed;
+	background-color:none;
+	border:none;
+	left:10%;
+	width:85%;
+	height:auto;
+	margin-top:0px;
+	margin-right:0px;
+	margin-left:0px;
+	}
+#header ul{
+	list-style-type:none;
+	}
+#header ul li a{
+	
+	font-size:18px;
+	float:right;
+	
+	width:110px;
+	height:50px;
+	text-align:center;
+	margin:10px 30px 10px 20px;
+	font-size:20px;
+	line-height:50px;
+	border-radius:50px;
+	font-family:Anton;
+	transition-duration:0.5s;
+		}	
+#header ul li a{
+	text-decoration:none;
+	color:black;
+	}
+#header ul li a:hover{
+			border:1px solid;
+			
+			color:black;
+			
+			}
+
+
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 550px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#img1
+{	
+	margin-left:80px;
+	float:left;
+	width:30%;
+	border-radius:50%;
+}
+#aq{
+	font-size:20px;
+	font-family:sofia;
+	margin-top:30px;
+	float:left;
+}
+#heading
+{
+	
+	color:white;
+	width:90%;
+	background-color:grey;
+	 font-family: 'pacifico';
+}
+#about
+{
+	padding-top:5%;
+	width:100%;
+	height:100%;
+	
+	
+}
+
+
+
+
+
+
+.divisions
+{
+	display:inline-block;
+	background-color:none;
+	justify-content:center;
+	width:100%;
+	height:auto;
+
+	
+	
+	
+
+	
+}
+.zoom
+{
+	margin-bottom:5%;
+	margin-left:5%;
+	justify-content:center;
+	width:40%;
+	height:60%;
+	margin-right:40px;
+	display:flex;
+	
+	background-image:url("../images/campus.jpg");
+	background-size:cover;
+	
+	box-shadow: 1px 8px 20px 5px grey;
+	background-position:center
+	
+
+	
+	
+}
+
+
+.zoom1
+{
+	box-shadow: 1px 8px 20px 5px grey;
+	
+	margin-left:5%;
+	justify-content:center;
+	width:40%;
+	height:60%;
+	display:flex;
+	background-image:url("../images/hostels.jpg");
+	background-size:cover;
+	
+	background-position:center;
+	
+	
+	
+	
+	
+}
+
+.zoom:hover ,.zoom1:hover{
+
+	
+	transition:0.8s ease;
+	
+}
+
+
+.overlay {
+	
+  position:relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0004;
+}
+
+.overlay1 {
+	
+  position:relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0004;
+}
+.text {
+	
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#ctext
+{
+	float:right;
+	padding-top:100px;
+	width:50%;
+	height:60%;
+	margin-right:20px;
+	font-family:indie flower;
+	font-size:20px;
+}
+
+
+
+
+
+.zoom1:hover .overlay1{
+	opacity:1;
+}
+
+.zoom:hover .overlay{
+	opacity:1;
+}
+
+.bb
+{
+	
+	background:transparent;
+}
+
+
+
+
+
+
+footer { 
+    font-family: 'Montserrat', sans-serif;
+    color: #E0E0E0;
+    line-height: 2;
+    background-color: #001825;
+    padding-top: 20px;
+}
+
+
+.footerContent > .footerContent1 {
+    font-size: 40px;
+	background-color:white;
+	width:100%;
+    line-height: 1.5;
+}
+
+.footerSubtext {
+    color: #95a5a6;
+}
+
+.footerContent > .footerSubtext2 {
+    color: #95a5a6;
+    font-size: 14px;
+}
+
+.footcontent {
+	
+    color: #E0E0E0;
+}
+/*---*/
+
+.footerline { 
+    margin-top: 69px;
+    margin-bottom: 0px;
+}
+#footer {
+	font-size:50px;
+	
+}
+
+
+
+
+/*---*/
